@@ -9,7 +9,7 @@ const config = {
   title: 'QA Jonatas Martins',
   tagline: 'Qualidade nunca mais será a mesma',
   url: 'https://qajonatasmartins.github.io/',
-  baseUrl: '/qajonatasmartins.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
