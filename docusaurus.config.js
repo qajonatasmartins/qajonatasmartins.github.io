@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'QA Jonatas Martins',
   tagline: 'Qualidade nunca mais será a mesma',
-  url: 'https://github.com',
+  url: 'https://qajonatasmartins.github.io/',
   baseUrl: '/qajonatasmartins.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
