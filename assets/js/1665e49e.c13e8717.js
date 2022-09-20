@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[7804],{9437:e=>{e.exports=JSON.parse('{"title":"Testing a","slug":"/category/testing-a","permalink":"/docs/category/testing-a","navigation":{"previous":{"title":"Tutorial Intro","permalink":"/docs/intro"},"next":{"title":"WebdriverIO","permalink":"/docs/testing/"}}}')}}]);
