@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'QA Jonatas Martins',
-  tagline: 'Qualidade nunca mais será a mesma',
-  url: 'https://qajonatasmartins.github.io/',
+  tagline: 'QA | DEV | Tech | Nerd | Humor',
+  url: 'https://qajonatasmartins.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,15 +16,10 @@ const config = {
   organizationName: 'qajonatasmartins',
   projectName: 'qajonatasmartins.github.io',
   deploymentBranch: 'gh-pages',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'pt',
     locales: ['pt'],
   },
-
   presets: [
     [
       'classic',
@@ -34,8 +29,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   '',
         },
         blog: {
           showReadingTime: true,
@@ -54,22 +49,40 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'supportus',
+        content: '🐞 Me siga nas redes sociais <a href="https://www.instagram.com/qajonatasmartins/">Instagram</a>, <a href="https://bit.ly/31SumOs">Youtube</a>, <a href="https://open.spotify.com/show/1guVcHGk4UgbZi7pvzTYds">Spotify</a> e <a href="https://twitter.com/qajonatas">Twitter</a>',
+        backgroundColor: '#FDC705',
+        textColor: '#100E0E',
+        isCloseable: false
+      },
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Minha logo do site',
+          src: 'img/logo qa svg.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'roadmap-into',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Roadmap',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'doc',
+            docId: 'tools-into',
+            position: 'left',
+            label: 'Tools',
+          },
+          {
+            type: 'doc',
+            docId: 'sites-into',
+            position: 'left',
+            label: 'Sites QA',
+          },
+          {
+            href: 'https://github.com/qajonatasmartins',
             label: 'GitHub',
             position: 'right',
           },
@@ -79,28 +92,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Redes sociais',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/qajonatasmartins/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Youtube',
+                href: 'https://bit.ly/31SumOs',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/qajonatas',
+              },
+              {
+                label: 'Spotify',
+                href: 'https://open.spotify.com/show/1guVcHGk4UgbZi7pvzTYds',
               },
             ],
           },
@@ -108,17 +116,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/qajonatasmartins',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} qajonatasmartins.github.io, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
